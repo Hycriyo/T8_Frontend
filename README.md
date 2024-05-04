@@ -1,4 +1,4 @@
-# temp
+# Plain HTML/CSS/JS to VUE
 
 ## Project setup
 ```

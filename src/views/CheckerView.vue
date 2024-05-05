@@ -47,3 +47,57 @@
         </section>
     </div>
 </template>
+
+<style>
+main>section
+{
+    display: flex;
+    flex-direction: column;
+
+}
+main>section>article
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+main>section>article>form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 16px;
+}
+
+main>section>article>form>div
+{
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+}
+
+main>section>article>form>div>label
+{
+    text-align: center;
+}
+
+main>section>article>form>div>input, #hoes
+{
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1000px)
+{
+    main>section
+    {
+        flex-direction: row;
+    }
+    main>section>article>form
+    {
+        max-width: 40vw;
+    }
+}
+</style>

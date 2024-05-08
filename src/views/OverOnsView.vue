@@ -1,5 +1,5 @@
 <template>
-    <div class="over_ons">
+    <main class="over_ons">
         <h2>
             Over Ons
         </h2>
@@ -36,5 +36,38 @@
                 </p>
             </article>
         </section>
-    </div>
+    </main>
 </template>
+
+<style scoped lang="less">
+main>section
+{
+    display: flex;
+    justify-content: center;
+}
+main>section>article
+{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100vw;
+    padding: 32px;
+    padding-top: 0;
+}
+
+@media screen and (orientation: landscape) and (max-width: 991px)
+{
+    main>section>article
+    {
+        width: 650px;
+    }
+}
+
+@media screen and (min-width: 992px)
+{
+    main>section>article
+    {
+        width: 650px;
+    }
+}
+</style>

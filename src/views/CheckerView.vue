@@ -1,9 +1,9 @@
 <template>
-    <div class="checker">
+    <main class="checker">
         <h2>
             Checker
         </h2>
-        <section>
+        <section class="">
             <article>
                 <h3>
                     Vul hier de informatie in:
@@ -45,10 +45,10 @@
                 </h3>
             </article>
         </section>
-    </div>
+    </main>
 </template>
 
-<style>
+<style scoped lang="less">
 main>section
 {
     display: flex;
@@ -69,7 +69,7 @@ main>section>article>form
     flex-direction: column;
     width: 100vw;
     padding: 16px;
-}
+} 
 
 main>section>article>form>div
 {
@@ -89,7 +89,7 @@ main>section>article>form>div>input, #hoes
 }
 
 
-@media screen and (min-width: 1000px)
+@media screen and (min-width: 992px)
 {
     main>section
     {
